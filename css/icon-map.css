@@ -1,0 +1,20 @@
+.icon-map{
+color:#333;
+width:30px;height:30px;
+margin:30px auto;
+border:solid 2px currentColor;
+border-radius:16px 16px 16px 0;
+-webkit-transform:rotate(-45deg);
+-moz-transform: ratate(-45deg);
+transform:rotate(-45deg);
+}
+.icon-map:after{
+content: "";
+width: 8px;
+height: 8px;
+border:2px solid currentcolor;
+position: absolute;
+top:9px;
+left:9px;
+border-radius: 100%;
+}
